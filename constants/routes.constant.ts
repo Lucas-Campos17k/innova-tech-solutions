@@ -1,9 +1,15 @@
 export const ROUTES = {
-  ADMIN: "/admin",
-  CLIENTS: "/clients",
-  PROJECTS: "/projects",
-  EMPLOYEES: "/employees",
-  SERVICES: "/services",
-  REPORTS: "/reports",
-  SETTINGS: "/settings",
+  PUBLIC: {
+    HOME: "/",
+  },
+
+  PRIVATE: {
+    ADMIN: "/admin",
+    PROJECTS: "/admin/projects",
+    CLIENTS: "/admin/clients",
+    EMPLOYEES: "/admin/employees",
+    SERVICES: "/admin/services",
+    REPORTS: "/admin/reports",
+    SETTINGS: "/admin/settings",
+  },
 } as const;

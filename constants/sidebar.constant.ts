@@ -8,42 +8,78 @@ import {
   UsersRound,
 } from "lucide-react";
 
-import { SidebarNavigationItem } from "@/types/sidebar-navigation.type";
+import { ROUTES } from "@/constants/routes.constant";
+import {
+  SidebarNavigationItem,
+  SidebarNavigationSection,
+} from "@/types/sidebar-navigation.type";
 
-export const SIDEBAR_NAVIGATION_ITEMS: ReadonlyArray<SidebarNavigationItem> = [
+const GENERAL_ITEMS: ReadonlyArray<SidebarNavigationItem> = [
   {
+    id: "dashboard",
     label: "Dashboard",
-    href: "/admin",
+    href: ROUTES.PRIVATE.ADMIN,
     icon: LayoutDashboard,
   },
+];
+
+const MANAGEMENT_ITEMS: ReadonlyArray<SidebarNavigationItem> = [
   {
+    id: "projects",
     label: "Proyectos",
-    href: "/projects",
+    href: ROUTES.PRIVATE.PROJECTS,
     icon: FolderKanban,
   },
   {
+    id: "clients",
     label: "Clientes",
-    href: "/clients",
+    href: ROUTES.PRIVATE.CLIENTS,
     icon: Users,
   },
   {
+    id: "employees",
     label: "Equipo",
-    href: "/employees",
+    href: ROUTES.PRIVATE.EMPLOYEES,
     icon: UsersRound,
   },
   {
+    id: "services",
     label: "Servicios",
-    href: "/services",
+    href: ROUTES.PRIVATE.SERVICES,
     icon: ClipboardList,
   },
+];
+
+const ADMINISTRATION_ITEMS: ReadonlyArray<SidebarNavigationItem> = [
   {
+    id: "reports",
     label: "Reportes",
-    href: "/reports",
+    href: ROUTES.PRIVATE.REPORTS,
     icon: ChartColumn,
   },
   {
+    id: "settings",
     label: "Administración",
-    href: "/settings",
+    href: ROUTES.PRIVATE.SETTINGS,
     icon: Settings,
   },
 ];
+
+export const SIDEBAR_NAVIGATION_SECTIONS: ReadonlyArray<SidebarNavigationSection> =
+  [
+    {
+      id: "general",
+      label: "General",
+      items: GENERAL_ITEMS,
+    },
+    {
+      id: "management",
+      label: "Gestión",
+      items: MANAGEMENT_ITEMS,
+    },
+    {
+      id: "administration",
+      label: "Administración",
+      items: ADMINISTRATION_ITEMS,
+    },
+  ];

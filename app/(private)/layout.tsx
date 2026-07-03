@@ -1,17 +1,9 @@
-import PrivateSidebar from "@/components/private/layout/PrivateSidebar/PrivateSidebar";
+import PrivateLayout from "@/components/private/layout/PrivateLayout/PrivateLayout";
 
-export default function DashboardLayout({
+export default function AdminLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <div className="flex min-h-screen bg-[var(--dashboard-background)]">
-      <PrivateSidebar />
-
-      <main className="flex-1">
-        {children}
-      </main>
-    </div>
-  );
+}: {
+  readonly children: React.ReactNode;
+}) {
+  return <PrivateLayout>{children}</PrivateLayout>;
 }
