@@ -3,6 +3,18 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --dashboard-background: #0f172a;
+  --dashboard-surface: #1e293b;
+  --dashboard-sidebar: #111827;
+  --dashboard-sidebar-hover: #1f2937;
+  --dashboard-primary: #2563eb;
+  --dashboard-primary-hover: #1d4ed8;
+  --dashboard-border: #334155;
+  --dashboard-text: #f8fafc;
+  --dashboard-text-muted: #94a3b8;
+  --dashboard-success: #22c55e;
+  --dashboard-warning: #f59e0b;
+  --dashboard-danger: #ef4444;
 }
 
 @theme inline {
