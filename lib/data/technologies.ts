@@ -6,15 +6,15 @@ export type Technology = {
 export const technologies: Technology[] = [
   {
     name: "Next.js",
-    image: "/images/technologies/nextjs.png",
+    image: "/images/technologies/next.js.png",
   },
   {
     name: "TypeScript",
-    image: "/images/technologies/typescript.svg",
+    image: "/images/technologies/typescript.webp",
   },
   {
     name: "Python",
-    image: "/images/technologies/python.svg",
+    image: "/images/technologies/python.webp",
   },
   {
     name: "PostgreSQL",
@@ -22,7 +22,7 @@ export const technologies: Technology[] = [
   },
   {
     name: "MongoDB",
-    image: "/images/technologies/mongodb.svg",
+    image: "/images/technologies/MongoDB.webp",
   },
   {
     name: "Docker",
@@ -30,10 +30,10 @@ export const technologies: Technology[] = [
   },
   {
     name: "GitLab",
-    image: "/images/technologies/gitlab.svg",
+    image: "/images/technologies/gitlab.webp",
   },
   {
     name: "Microsoft Copilot",
-    image: "/images/technologies/copilot.svg",
+    image: "/images/technologies/microsoft_Copilot.svg",
   },
 ];
