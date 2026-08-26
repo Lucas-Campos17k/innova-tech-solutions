@@ -15,11 +15,11 @@ export default function Footer() {
 
         <div className="mt-6 md:mt-0 text-center md:text-right">
 
-          <p>📍 Buenos Aires, Argentina</p>
+          <p>San Miguel de Tucumán, Tucumán, Argentina</p>
 
-          <p>📧 contacto@innovatech.com</p>
+          <p> contacto@innovatech.com</p>
 
-          <p>📞 +54 11 1234-5678</p>
+          <p>3815249895 - 3816282421</p>
 
         </div>
 
