@@ -105,27 +105,6 @@ export default function Servicios() {
         </div>
       </section>
 
-      <section className="bg-blue-600 text-white py-20">
-        <div className="max-w-5xl mx-auto text-center px-6">
-
-          <h2 className="text-4xl font-bold mb-6">
-            ¿Tenés un proyecto en mente?
-          </h2>
-
-          <p className="text-lg mb-10">
-            Nuestro equipo está preparado para ayudarte a convertir tus ideas
-            en soluciones tecnológicas innovadoras.
-          </p>
-
-          <a
-            href="/contacto"
-            className="bg-white text-blue-600 px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition"
-          >
-            Contactanos
-          </a>
-
-        </div>
-      </section>
     </main>
   );
 }

@@ -17,7 +17,7 @@ export default function Button({
   const styles = {
     primary: "bg-[#2563EB] text-white hover:bg-[#1E40AF]",
     secondary:
-      "border border-[#2563EB] text-[#2563EB] hover:bg-blue-50",
+      "bg-white text-[#2563EB] hover:bg-blue-50",
   };
 
   return (
