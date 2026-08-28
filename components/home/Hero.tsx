@@ -34,7 +34,7 @@ export default function Hero() {
 
             <div className="flex gap-4 mt-10">
 
-              <Button href="/contacto">
+              <Button href="/Contacto">
                 Solicitar una consulta
               </Button>
 

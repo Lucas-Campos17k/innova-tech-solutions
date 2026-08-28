@@ -64,31 +64,52 @@ export default function Nosotros() {
         </div>
       </section>
 
-      <section className="py-24 bg-slate-100">
-        <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-8">
-          <div className="bg-white rounded-2xl shadow p-10">
-            <h2 className="text-3xl font-bold text-slate-900 mb-6">
+      <section className="bg-blue-600 px-6 py-24 text-center text-white">
+        <div className="mx-auto max-w-6xl">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-blue-100">
+            Nuestra esencia
+          </p>
+
+          <h2 className="mt-3 text-4xl font-bold md:text-5xl">
+            Lo que nos guía
+          </h2>
+
+          <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-blue-100">
+            Construimos relaciones duraderas y soluciones que generan un
+            impacto real en cada negocio.
+          </p>
+
+          <div className="mt-14 grid gap-8 md:grid-cols-2">
+          <div className="group rounded-3xl border border-white/20 border-t-4 border-t-blue-300 bg-white p-10 text-center shadow-xl transition duration-300 hover:-translate-y-2 hover:shadow-2xl">
+            <span className="text-sm font-bold uppercase tracking-[0.2em] text-blue-600">
+              01
+            </span>
+            <h2 className="mt-4 text-3xl font-bold text-slate-900">
               Nuestra misión
             </h2>
 
-            <p className="text-gray-600 leading-8">
+            <p className="mt-6 text-gray-600 leading-8">
               Desarrollar soluciones de software innovadoras y eficientes que
               ayuden a las empresas a optimizar sus procesos, mejorar su
               productividad y adaptarse a los desafíos del entorno digital.
             </p>
           </div>
 
-          <div className="bg-white rounded-2xl shadow p-10">
-            <h2 className="text-3xl font-bold text-slate-900 mb-6">
+          <div className="group rounded-3xl border border-white/20 border-t-4 border-t-blue-300 bg-white p-10 text-center shadow-xl transition duration-300 hover:-translate-y-2 hover:shadow-2xl">
+            <span className="text-sm font-bold uppercase tracking-[0.2em] text-blue-600">
+              02
+            </span>
+            <h2 className="mt-4 text-3xl font-bold text-slate-900">
               Nuestra visión
             </h2>
 
-            <p className="text-gray-600 leading-8">
+            <p className="mt-6 text-gray-600 leading-8">
               Ser una empresa referente en el desarrollo de soluciones
               tecnológicas innovadoras, reconocida por su calidad, capacidad de
               adaptación y compromiso con el éxito de sus clientes.
             </p>
           </div>
+        </div>
         </div>
       </section>
 

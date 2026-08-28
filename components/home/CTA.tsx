@@ -15,7 +15,7 @@ export default function CTA() {
             tecnológicas que generan valor para tu negocio.
           </p>
           <div className="mt-10">
-            <Button href="/contacto" variant="secondary">
+            <Button href="/Contacto" variant="secondary">
               Solicitar una consulta
             </Button>
           </div>
